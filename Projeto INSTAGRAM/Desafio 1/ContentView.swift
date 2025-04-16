@@ -87,6 +87,54 @@ struct ContentView: View {
                         
                         .frame(width: 370, height: 50)
                     )
+                HStack{
+                    VStack{
+                        Circle()
+                            .fill(.gray)
+                            .opacity(0.5)
+                            .padding(.top)
+                            .padding(.horizontal, 2)
+                            .frame(width: 70)
+                        Text("Destaques")
+                            .font(.system(size: 15))
+                        
+                    }
+                    VStack{
+                        Circle()
+                            .fill(.gray)
+                            .opacity(0.5)
+                            .padding(.top)
+                            .padding(.horizontal, 2)
+                            .frame(width: 70)
+                        Text("Destaques")
+                            .font(.system(size: 15))
+                        
+                    }
+                    VStack{
+                        Circle()
+                            .fill(.gray)
+                            .opacity(0.5)
+                            .padding(.top)
+                            .padding(.horizontal, 2)
+                            .frame(width: 70)
+                        Text("Destaques")
+                            .font(.system(size: 15))
+                        
+                    }
+                    VStack{
+                        Circle()
+                            .fill(.gray)
+                            .opacity(0.5)
+                            .padding(.top)
+                            .padding(.horizontal, 2)
+                            .frame(width: 70)
+                        Text("Destaques")
+                            .font(.system(size: 15))
+                        
+                    }
+                    
+                        
+                }
 
             }
         }
